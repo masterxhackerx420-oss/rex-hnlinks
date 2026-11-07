@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "rex-hnlinks"
+version = "0.1.0"
+description = "Rank GitHub and arXiv mentions in sampled Hacker News comments"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+[project.scripts]
+hnlinks = "rex_hnlinks.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
