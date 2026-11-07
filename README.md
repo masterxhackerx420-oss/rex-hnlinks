@@ -1,5 +1,7 @@
 # Rex's hnlinks
 
+![Illustrated characters against a fiery sunset](docs/rex-hnlinks-banner.jpg)
+
 Rank GitHub repositories and arXiv papers by distinct mentions in a bounded sample of Hacker News comments.
 
 Requires Python 3.10+. No runtime dependencies. Nothing in comments is executed, and extracted links are never fetched.
